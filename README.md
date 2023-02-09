@@ -19,7 +19,7 @@ Time Spent -
 
   40 Mins - Setup the project and developing CSV Reader
   
-  50 Mins - To Build Data Retrival Methods, Testing and Debugging
+  50 Mins - To Build Data Retrieval Methods, Testing and Debugging
   
   5 Mins - This Readme file 
  
