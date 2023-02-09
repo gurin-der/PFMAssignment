@@ -2,6 +2,6 @@
 {
     internal interface ISensorDataReader
     {
-        DataPoint[] ReadDataPoints();
+        List<DataPoint> ReadDataPoints();
     }
 }

@@ -1,4 +1,7 @@
 ﻿internal interface IEndPointHandler
 {
-    DataPoint[] GetData();
+    List<DataPoint> GetData();
+    List<DataPoint> GetDailyData();
+    List<DataPoint> GetHourlyData();
+    List<DataPoint> GetWeeklyData();
 }

@@ -22,7 +22,7 @@
             _isHeader = isHeader;
         }
 
-        DataPoint[] ISensorDataReader.ReadDataPoints()
+        List<DataPoint> ISensorDataReader.ReadDataPoints()
         {
             var lines = File.ReadAllLines( _datafile );
             var startIdx = 0;
@@ -45,7 +45,7 @@
                 }
             }
 
-            return dataPoints.ToArray();
+            return dataPoints;
         }
 
         private DataPoint GetDataPoint(string v)
